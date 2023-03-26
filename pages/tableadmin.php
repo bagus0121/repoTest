@@ -22,8 +22,8 @@
             </thead>
             <tbody>
             <?php 
-            $koneksi = mysqli_connect("localhost","root","","db_devel_wisata");
-				$batas = 10;
+          $koneksi = mysqli_connect("btzpwcfdumjrpj2zypou-mysql.services.clever-cloud.com","ucsfsfw7mdnec0ff","8vKxAEnExNyZxowgb6E3","btzpwcfdumjrpj2zypou");
+          $batas = 10;
 				$halaman = isset($_GET['halaman'])?(int)$_GET['halaman'] : 1;
 				$halaman_awal = ($halaman>1) ? ($halaman * $batas) - $batas : 0;	
  

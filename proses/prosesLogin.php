@@ -1,8 +1,7 @@
 <?php
 
-//koneksi ke database
-$conn = mysqli_connect("localhost", "root", "", "db_devel_wisata");
-
+$conn= mysqli_connect("btzpwcfdumjrpj2zypou-mysql.services.clever-cloud.com","ucsfsfw7mdnec0ff","8vKxAEnExNyZxowgb6E3","btzpwcfdumjrpj2zypou");
+	
 //memeriksa apakah tombol login telah ditekan
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
